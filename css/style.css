@@ -5,9 +5,12 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-  background-color: whitesmoke !important;
+  background-color: rgb(236, 239, 243) !important;
 }
-
+.lead{
+color: #e89031 !important;
+font-size: 150% !important;
+}
 #navbarSupportedContent{
     background-color: rgba(240, 243, 246, 0.923) !important;
 }
@@ -20,12 +23,25 @@ body {
     letter-spacing: 1px;
 }
 
+.nav-link:hover{
+color: rgb(175, 21, 21);
+}
+
 .btn-primary:hover{
     background: #91bee6 !important;
     box-shadow: 5px 5px 10px #e89031 !important;
 }
-h1,
-h2,
+
+h1{
+    color: aliceblue !important;
+    border-color: #8a92c8;
+}
+
+h2 {
+    font-size: 200%;
+    box-shadow: #8a92c8 !important;
+    padding-block:unset;
+}
 h3,
 h4,
 h5,
@@ -37,8 +53,16 @@ p {
   margin: 0;
 }
 
+.container{
+    padding-bottom: 2.5%;
+}
 #contactme ul a{
     justify-content: space-around;
     align-items: flex-end;
     padding-left: 10%;
+    padding-top: 10% !important;
+    color: black;
+   }
+   #contactme ul a:hover{
+    color: blue;
    }
