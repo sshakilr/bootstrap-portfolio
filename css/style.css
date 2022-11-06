@@ -11,7 +11,19 @@ body {
 #navbarSupportedContent{
     background-color: rgba(240, 243, 246, 0.923) !important;
 }
+.btn{
+    background-color: #8a92c8 !important;
+    box-shadow: 1px 5px #bb5d76;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
 
+.btn-primary:hover{
+    background: #91bee6 !important;
+    box-shadow: 5px 5px 10px #e89031 !important;
+}
 h1,
 h2,
 h3,
@@ -24,3 +36,9 @@ h6 {
 p {
   margin: 0;
 }
+
+#contactme ul a{
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-left: 10%;
+   }
