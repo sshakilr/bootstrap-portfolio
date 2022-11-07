@@ -8,8 +8,9 @@ body {
   background-color: rgb(236, 239, 243) !important;
 }
 .lead{
-color: #e89031 !important;
+color: #ffffff !important;
 font-size: 150% !important;
+border-bottom: 2px solid whitesmoke;
 }
 #navbarSupportedContent{
     background-color: rgba(240, 243, 246, 0.923) !important;
@@ -32,6 +33,12 @@ color: rgb(175, 21, 21);
     box-shadow: 5px 5px 10px #e89031 !important;
 }
 
+.btn-outline-success {
+    color: #ffffff !important;
+    background-color: transparent;
+    background-image: none;
+    border-color: #28a745;
+    
 h1{
     color: aliceblue !important;
     border-color: #8a92c8;
