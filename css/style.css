@@ -38,10 +38,11 @@ color: rgb(175, 21, 21);
     background-color: transparent;
     background-image: none;
     border-color: #28a745;
-    
-h1{
-    color: aliceblue !important;
-    border-color: #8a92c8;
+}
+
+h1 {
+color: aliceblue !important;
+border-color: #8a92c8;
 }
 
 h2 {
@@ -68,8 +69,9 @@ p {
     align-items: flex-end;
     padding-left: 10%;
     padding-top: 10% !important;
-    color: black;
+    color: black !important;
    }
+
    #contactme ul a:hover{
     color: blue;
    }
