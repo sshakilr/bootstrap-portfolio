@@ -73,5 +73,5 @@ p {
    }
 
    #contactme ul a:hover{
-    color: blue;
+    color: blue !important;
    }
